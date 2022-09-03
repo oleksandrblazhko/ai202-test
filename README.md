@@ -1,4 +1,4 @@
-# SW-repo-template!!!!
+# SW-repo-template!!
 ## Другий
 ### Третій
 
