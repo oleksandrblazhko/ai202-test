@@ -5,7 +5,7 @@ title Usecase for Information system
 left to right direction
 
 actor Actor1
-actor :Complex Actor2:
+actor :Complex Actor211111111:
 
 Actor1 <|-- :Complex Actor2:
 
