@@ -1,16 +1,21 @@
-' https://real-world-plantuml.com/umls/5650639363244032
 @startuml
+
+title Usecase for Information system
 
 left to right direction
 
-actor :Simple customer:
-actor clerk
+actor Actor1
+actor :Complex Actor2:
 
-rectangle checkout {
-	:Simple customer: -- (checkout)
-	(checkout) .> (payment) : include
-	(help) .> (checkout) : extends
-	(checkout) -- clerk
+Actor1 <|-- :Complex Actor2:
+
+rectangle Software {
+    usecase (Usecase1)
+    usecase (Usecase2)
+    
+    Actor1 --> (Usecase1)
+    Actor1 --> (Usecase2)
 }
 
 @enduml
+
