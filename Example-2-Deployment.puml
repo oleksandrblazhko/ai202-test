@@ -1,0 +1,29 @@
+@startuml
+
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+node :<<Desktop1>>: as dk1 {
+	node :<<OS>>: {
+		component [Web Brouser]
+	}
+}
+
+interface Keyboard
+
+interface Mouse
+
+Keyboard -- dk1
+
+Mouse -- dk1
+
+node :<<Server1>>: as dk2 {
+	node :<<OS2>>: {
+		component [Web Server]
+	}
+}
+
+dk1 -- dk2
+
+@enduml
