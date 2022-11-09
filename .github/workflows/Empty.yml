@@ -7,3 +7,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: Print Java Version
+    run: echo 'Hello World!'
