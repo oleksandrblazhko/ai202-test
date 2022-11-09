@@ -1,5 +1,5 @@
 { 
-	"empno: 10,
+	"empno": 10,
 	"ename": "Blake",
 	"hiredate": "2022-09-30",
 	"sal": 100.10,
