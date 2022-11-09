@@ -1,7 +1,7 @@
 name: Empty WorkFlow
 on: 
  push:
-  branches: LW11
+  branches: main
 jobs: 
  EmptyWorkFlow:
   runs-on: ubuntu-latest
