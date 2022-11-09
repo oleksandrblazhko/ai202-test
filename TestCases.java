@@ -54,7 +54,7 @@ class TestCases {
 			// execute query
 			cstmt1.executeUpdate();
 			// analize TastCase-result
-            if (cstmt1.getInt(1) == -2)
+            if (cstmt1.getInt(1) == -1)
 			    System.out.println("Passed");
 			else { 
 			    System.out.println("Failed");
