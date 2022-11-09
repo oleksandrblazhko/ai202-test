@@ -1,1 +1,1 @@
-select a1, a2 from t1;
+select a1 from t1;
