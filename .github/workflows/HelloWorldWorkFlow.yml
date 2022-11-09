@@ -7,4 +7,6 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: Print Hello World
-    run: echo 'Hello World!'
+    run: |
+     pwd
+     echo 'Hello World!'
