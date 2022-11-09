@@ -19,9 +19,9 @@ jobs:
     run: |
       cd $GITHUB_WORKSPACE/
       export CLASSPATH="./ojdbc8.jar:./"
-      javac OracleCon.java
+      javac TestCases.java
   - name: Execute
     run: |
       cd $GITHUB_WORKSPACE/
       export CLASSPATH="./ojdbc8.jar:./"
-      java OracleCon
+      java TestCases
