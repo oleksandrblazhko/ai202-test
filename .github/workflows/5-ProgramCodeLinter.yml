@@ -2,8 +2,6 @@ name: Program Code Linter
 on:
   push:
     branches-ignore: [master, main]
-  pull_request:
-    branches: [master, main]
 jobs:
   ProgramCodeLinter:
     name: Lint Code
@@ -17,5 +15,5 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: master
+          VALIDATE_JAVA: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
