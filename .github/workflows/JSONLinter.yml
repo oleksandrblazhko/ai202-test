@@ -16,10 +16,7 @@ jobs:
     uses: "actions/checkout@v3"
   - name: Start JSON Linter
     # виконнання декількох послідовних команд shell-інтерпретатором
-    # run: |
-     # npm i -g @prantlf/jsonlint
-     # jsonlint $GITHUB_WORKSPACE/file.json
-    env:
-        # REPORT_ONLY: true
-        SHOW_ERRORS: true
-    run: bash <(curl -s https://raw.githubusercontent.com/CICDToolbox/json-lint/master/pipeline.sh)
+    run: |
+     npm i -g @prantlf/jsonlint
+     jsonlint $GITHUB_WORKSPACE/file.json
+    
