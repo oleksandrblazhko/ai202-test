@@ -6,7 +6,7 @@ on:
 jobs:
   ProgramCodeLinter:
      runs-on: ubuntu-latest
-    steps:
+     steps:
       - name: Checkout Code in Repository
         uses: actions/checkout@v3
       - name: Lint Program Code
