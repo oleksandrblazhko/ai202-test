@@ -1,0 +1,10 @@
+{ 
+	"empno: 10,
+	"ename": "Blake",
+	"hiredate": "2022-09-30",
+	"sal": 100.10,
+	"Email" : "blake@op.edu.ua",
+	"mobile": "(093)777-7777",
+	"staffs": [20, 30, 40]
+}
+
