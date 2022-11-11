@@ -1,3 +1,4 @@
+# https://github.com/marketplace/actions/super-linter
 name: Program Code Linter
 on:
   push:
@@ -9,11 +10,12 @@ jobs:
     steps:
       - name: Checkout Code in Repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+        #with:
+        #  fetch-depth: 0
       - name: Lint Program Code
         uses: github/super-linter@v4
         env:
-          VALIDATE_ALL_CODEBASE: false
+          # VALIDATE_ALL_CODEBASE: false
           VALIDATE_JAVA: true
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILTER_REGEX_INCLUDE: ./*.java
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
