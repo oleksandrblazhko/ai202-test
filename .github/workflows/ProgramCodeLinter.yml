@@ -14,3 +14,6 @@ jobs:
         env:
           VALIDATE_JAVA: true
           FILTER_REGEX_INCLUDE: ./*.java
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+          
