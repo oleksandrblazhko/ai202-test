@@ -23,5 +23,5 @@ jobs:
     run: |
       cd $GITHUB_WORKSPACE
       export CLASSPATH="./ojdbc8.jar:./"
-      echo $env:LOGIN
+      echo "$env:LOGIN"
       java OracleCon ${{ secrets.LOGIN }} ${{ secrets.PASSWORD }}
