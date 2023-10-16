@@ -5,7 +5,7 @@ title Example of Activity Diagram
 start
 
 :The program analyzes user data; 
-note right: Using RegExp validator
+note right: Using RegExp validator11111111
 
 if (Is Data Correct111111111111?) then (yes)
   :Thank you!;
