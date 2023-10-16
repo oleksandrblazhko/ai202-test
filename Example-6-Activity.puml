@@ -7,7 +7,7 @@ start
 :The program analyzes user data; 
 note right: Using RegExp validator
 
-if (Is Data Correct?) then (yes)
+if (Is Data Correct111111111111?) then (yes)
   :Thank you!;
 else (no)
   :Your data is incorrect!;
